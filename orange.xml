@@ -1,0 +1,11 @@
+<suite name="orangeHRM">
+    <test name ="LoginScreenTest">
+
+        <!-- Here, We Pass Home Page Side toggle item to click on it -->
+        <parameter name="operation" value="Admin"/>
+        <classes>
+            <class name= "org.example.testscript.LoginTest"/>
+            <class name="org.example.testscript.DashBoardTest"/>
+        </classes>
+    </test>
+</suite>
